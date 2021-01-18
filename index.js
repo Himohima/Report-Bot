@@ -13,7 +13,7 @@ const modLogs = require('@features/mod-logs')
 
 const client = new Commando.CommandoClient({
   owner: '650709300657782805',
-  commandPrefix: '.',
+  commandPrefix: 'r.',
 })
 
 client.on('ready', async () => {

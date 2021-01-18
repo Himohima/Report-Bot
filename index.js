@@ -31,3 +31,5 @@ client.on('ready', async () => {
 })
 
 client.login(process.env.TOKEN)
+module.exports = { client }
+
